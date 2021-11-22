@@ -4,10 +4,10 @@ close all
 
 
 
-request = matlab.net.http.RequestMessage;
-uri = matlab.net.URI('https://api.chucknorris.io/jokes/random');
-response = sendRequest(uri,request)
-body = response.Body.Data.value
+% request = matlab.net.http.RequestMessage;
+% uri = matlab.net.URI('https://api.chucknorris.io/jokes/random');
+% response = sendRequest(uri,request)
+% body = response.Body.Data.value
 
 data_bits = text2bin(body);
 
